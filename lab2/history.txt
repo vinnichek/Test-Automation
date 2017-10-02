@@ -1,0 +1,106 @@
+  203  git@github.com:vinnichek/Test-Automation.git
+  204  git clone git@github.com:vinnichek/Test-Automation.git
+  205  cd TA-lab2
+  206  git clone git@github.com:vinnichek/Test-Automation.git
+  207  cd ..
+  208  git clone git@github.com:yekaterinashenets/testing_labs.git
+  209  cd Test-Automation/
+  210  mkdir lab2
+  211  cd lab2
+  212  file1.txt
+  213  git add file1.txt
+  214  touch file1.txt
+  215  git commit 
+  216  git add file1.txt
+  217  git status
+  218  git commit -m 'file1.txt added'
+  219  git status
+  220  touch file2.txt
+  221  git add file2.txt
+  222  git commit -m 'file2.txt added'
+  223  vi file2.txt
+  224  git add file2.txt
+  225  git commit -m 'file2.txt changed'
+  226  git checkout -b develop
+  227  touch main.css
+  228  git add main.css
+  229  git commit -m 'main.css added'
+  230  vi main.css
+  231  git add main.css
+  232  git commit -m 'main.css changed'
+  233  git checkout master
+  234  git log
+  235  git checkout develop
+  236  git log
+  237  git checkout master
+  238  git merge develop
+  239  git status
+  240  git checkout develop
+  241  touch main.html
+  242  vi main.html
+  243  git add main.html
+  244  git commit -m 'main.html added'
+  245  vi main.html
+  246  git add main.html
+  247  git commit -m 'main.html changed'
+  248  git checkout master
+  249  vi file1.txt
+  250  git add file.txt
+  251  git commit -m 'file.txt changed'
+  252  git commit -m 'file1.txt changed'
+  253  git add file1.txt
+  254  git commit -m 'file1.txt changed'
+  255  git checkout develop
+  256  git rebase master
+  257  git log
+  258  vi main.css
+  259  git add main.csss
+  260  git add main.css
+  261  git commit -m 'main.css changed'
+  262  vi main.html
+  263  git add main.html
+  264  git commit -m 'main.html changed'
+  265  git log
+  266  git checkout master
+  267  git cherry-pick e9bbb9
+  268  git status
+  269  git checkout develop
+  270  git log
+  271  git revert 41dca4
+  272  git status
+  273  git log
+  274  git revert 41dca4
+  275  git status
+  276  git add
+  277  git add .
+  278  git commit -m 'all added'
+  279  git revert 41dca4
+  280  git status
+  281  git add main.html
+  282  git commit -m 'main.html changed'
+  283  git status
+  284  git log
+  285  git revert 0469ef
+  286  git log
+  287  git status
+  288  git checkout master
+  289  touch wrong.txt
+  290  vi
+  291  vi wrong.txt 
+  292  git add wrong.txt
+  293  git commit -m 'wrong.txt added'
+  294  git checkout develop
+  295  ls
+  296  touch wrong.txt
+  297  vi wrong.txt 
+  298  git add wrong.txt 
+  299  git commit -m 'wrong.txt added'
+  300  git checkout master
+  301  git merge develop
+  302  git merge develop
+  303  git status
+  304  git add .
+  305  git commit -m 'files changed'
+  306  git merge develop
+  307  git status
+  308  history
