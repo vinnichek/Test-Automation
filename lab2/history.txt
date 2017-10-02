@@ -3,7 +3,7 @@
   205  cd TA-lab2
   206  git clone git@github.com:vinnichek/Test-Automation.git
   207  cd ..
-  208  git clone git@github.com:yekaterinashenets/testing_labs.git
+  208  ls
   209  cd Test-Automation/
   210  mkdir lab2
   211  cd lab2
