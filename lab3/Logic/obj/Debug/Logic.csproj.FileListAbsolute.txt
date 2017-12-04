@@ -1,6 +1,0 @@
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\bin\Debug\Logic.dll
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\bin\Debug\Logic.pdb
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\obj\Debug\Logic.dll
-C:\Users\Ira Vinnichek\Downloads\AutomationTesting.Lab3-master\Logic\obj\Debug\Logic.pdb
