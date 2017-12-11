@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace Selenium
+namespace Selenium.Pages
 {
     public class FinderPage : Page
     {

@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.PageObjects;
 
-namespace Selenium
+namespace Selenium.Pages
 {
     public abstract class Page
     {
@@ -9,6 +10,7 @@ namespace Selenium
         public Page(IWebDriver driver)
         {
             this.driver = driver;
+            PageFactory.InitElements(driver, this);
         }
     }
 }

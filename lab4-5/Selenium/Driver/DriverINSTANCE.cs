@@ -2,9 +2,9 @@
 using OpenQA.Selenium.Chrome;
 using System;
 
-namespace Selenium
+namespace Selenium.Driver
 {
-    public static class Driver
+    public static class DriverInstance
     {
         private static IWebDriver driver;
 
